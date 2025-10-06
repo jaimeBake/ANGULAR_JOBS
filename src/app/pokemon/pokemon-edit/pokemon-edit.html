@@ -1,0 +1,9 @@
+ <h2 class="center">Editer {{ pokemon?.name }}</h2>
+   @if (pokemon) {
+     <p class="center">
+       <img [src]="pokemon.picture" [alt]="pokemon.name" class="img-thumbnail">
+     </p>
+   }
+   @if (pokemon) {
+     <!--<app-pokemon-form [pokemon]="pokemon!"></app-pokemon-form> -->
+   }
